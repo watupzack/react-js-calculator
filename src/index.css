@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  padding: 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calc-button {
+  padding: 10px;
+  width: 25%;
+  font-weight: bold;
+}
+.user-input {
+  background-color: cadetblue;
+  padding: 20px 0;
+  width: 200px;
+}
+.calc {
+  width: 200px;
+}
+.user-input {
+  text-align: right;
 }
